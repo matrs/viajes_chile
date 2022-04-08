@@ -16,4 +16,4 @@ Pasos para agregar cambios aportados por cada usuario:
 
 ## Agregar cambios de cada usuario a repositorio original (`merge`)
 
-Para agregar cambios de un determinado usuario al repositorio original, es necesario hacer un [_pull request_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). El repositorio original, es decir el repositorio desde el cual hicieron un fork, es conocido como _upstream_.
+Para agregar cambios de un determinado usuario al repositorio original, es necesario hacer un [_pull request_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) (El repositorio original, es decir el repositorio desde el cual hicieron un fork, es conocido como _upstream_).
