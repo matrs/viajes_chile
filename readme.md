@@ -1,6 +1,6 @@
 # Sección cards para desafio _Viajes Chile_
 
-**Visitar pagina en https://matrs.github.io/cards_modal/**
+**Visitar pagina en https://matrs.github.io/viajes_chile/**
 
 Pasos para agregar cambios aportados por cada usuario:
 
