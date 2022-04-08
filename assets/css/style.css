@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 h1,
 h2,
 h3,
@@ -24,4 +28,24 @@ h3 {
 
 .card-title {
   font-weight: 700;
+}
+
+/* sección cartas con íconos */
+#descripcion{
+  background-color: black;
+  color: #ffffff;  
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+#descripcion h2{
+  font-size: 25.876px;
+  font-weight: 700px;
+}
+.fila{
+  opacity: .7;
+  font-size: 16px;
+}
+.bajoiconos{
+  background-color: #499ca0;
 }
