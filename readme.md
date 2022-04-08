@@ -1,6 +1,7 @@
 # Sección cards para desafio _Viajes Chile_
 
 **Visitar pagina en https://matrs.github.io/viajes_chile/**
+(incluye modal cuando se hace click en imagenes)
 
 ## Instrucciones
 
