@@ -25,3 +25,25 @@ h3 {
 .card-title {
   font-weight: 700;
 }
+   /*CSS Fernando */
+.header {
+    background: url(/assets/img/carousel1.jpg) no-repeat center;
+    background-size: cover;
+    /* ∫ */
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+  
+  .textos-blancos{
+    color: white;
+  }
+
+  .fondos-celestes{
+    background-color:rgb(85, 223, 223);
+  }
+
+  .tamaño-barras{
+    height: 30px;
+  }
+/*CSS Fernando---------- cierra */
