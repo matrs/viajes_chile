@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-celeste {
+  background-color: #499ca0;
+}
+
+.card-title {
+  font-weight: 700;
+}

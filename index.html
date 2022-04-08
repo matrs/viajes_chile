@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="bg-black">
+      <h3 class="text-center text-white my-4">DESTACADOS</h3>
+      <!-- container agrega un max-width diferente dependiendo de la resolucion de pantalla,-->
+      <!-- nunca usa todo el ancho-->
+      <div class="container row px-1 mx-auto my-4" id="gallery">
+        <!-- d-flex  define display:flex y en este caso permite que independiente del-->
+        <!-- largo del texto, el tamaño vertical de cada card sea el mismo -->
+        <div class="col-lg-4 col-xxl-3 col-md-6 mb-3 d-flex">
+          <div class="card">
+            <img
+              src="./assets/img/card1_sm.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              data-bs-toggle="modal"
+              data-bs-target="#imgCard1"
+            />
+            <div class="card-body bg-celeste">
+              <h5 class="card-title letra">Lorem ipsum dolor sit amet</h5>
+              <p class="card-text letra">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xxl-3 col-md-6 mb-3 d-flex">
+          <div class="card">
+            <img
+              src="./assets/img/card2_sm.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              data-bs-toggle="modal"
+              data-bs-target="#imgCard2"
+            />
+            <div class="card-body bg-celeste">
+              <h5 class="card-title letra">Consectetur adipisicing elit</h5>
+              <p class="card-text letra">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xxl-3 col-md-6 mb-3 d-flex">
+          <div class="card">
+            <img
+              src="./assets/img/card3_sm.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              data-bs-toggle="modal"
+              data-bs-target="#imgCard3"
+            />
+            <div class="card-body bg-celeste">
+              <h5 class="card-title letra">
+                Sed do eiusmod tempor incidunt ul Labore
+              </h5>
+              <p class="card-text letra">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xxl-3 col-md-6 mb-3 d-flex">
+          <div class="card">
+            <img
+              src="./assets/img/card4_sm.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              data-bs-toggle="modal"
+              data-bs-target="#imgCard4"
+            />
+            <div class="card-body bg-celeste">
+              <h5 class="card-title letra">Et enim ad minim veniam</h5>
+              <p class="card-text letra">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- BS v.5 "modal". Click en imagenes de "cards" para ver una version de mayor resolucion de la mismas-->
+      <div
+        class="modal fade"
+        id="imgCard1"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-body">
+                <img
+                  src="./assets/img/card1.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                  data-bs-toggle="modal"
+                  data-bs-target="#imgCard1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="imgCard2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-body">
+                <img
+                  src="./assets/img/card2.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                  data-bs-toggle="modal"
+                  data-bs-target="#imgCard2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="imgCard3"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-body">
+                <img
+                  src="./assets/img/card3.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                  data-bs-toggle="modal"
+                  data-bs-target="#imgCard3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="imgCard4"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-body">
+                <img
+                  src="./assets/img/card4.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                  data-bs-toggle="modal"
+                  data-bs-target="#imgCard4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
