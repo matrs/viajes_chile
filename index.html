@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="inicio">
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid mx-5">
           <a class="navbar-brand mx-5" href="#"
@@ -44,10 +44,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto mx-5">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Quienes Somos</a>
-              <a class="nav-link" href="#">Destacados</a>
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link active" href="#inicio">Inicio</a>
+              <a class="nav-link active" href="#descripcion">Quienes Somos</a>
+              <a class="nav-link active" href="#destacados">Destacados</a>
+              <a class="nav-link active" href="#contacto">Contacto</a>
             </div>
           </div>
         </div>
@@ -176,13 +176,14 @@
 
     <!-- final sección de íconos -->
 
-    <section class="bg-black">
+    <section id="destacados" class="bg-black">
       <h3 class="text-center text-white my-4">DESTACADOS</h3>
       <!-- container agrega un max-width diferente dependiendo de la resolucion de pantalla,-->
       <!-- nunca usa todo el ancho-->
       <div class="container row px-1 mx-auto my-4" id="gallery">
         <!-- d-flex  define display:flex y en este caso permite que independiente del-->
         <!-- largo del texto, el tamaño vertical de cada card sea el mismo -->
+        <hr>
         <div class="col-lg-4 col-xxl-3 col-md-6 mb-3 d-flex">
           <div class="card">
             <img
@@ -354,6 +355,46 @@
         </div>
       </div>
     </section>
+
+    <section id="contacto" class="bg-black mx-5">
+      <form class="mx-5">
+        <fieldset>
+          <legend class="titulo-centrado letra-contacto">Contacto</legend>
+          <hr/>
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label letra">Nombre</label>
+            <input type="text" id="disabledTextInput" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label letra">Asunto</label>
+            <input type="text" id="disabledTextInput" class="form-control">
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label letra">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-celeste mb-5 letra">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <footer class="bg-footer ml-5">
+      <div class="container-fluid ml-5">
+        <div class="row">
+          <div class="col-md-8 ml-5 pt-2">
+            <h2 class="ml-5 ms-auto">viajes chile</h2>
+          </div>
+          <div class="col-6 col-md-2 ms-auto pt-3">
+            <i class="fa-brands fa-github-square icono" ></i>
+            <i class="fa-brands fa-linkedin icono"></i>
+            <i class="fa-brands fa-twitter-square icono"></i>
+            <i class="fa-brands fa-facebook-square icono"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
