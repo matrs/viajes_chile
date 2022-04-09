@@ -1,7 +1,6 @@
-body{
+body {
   background-color: black;
 }
-
 
 h1,
 h2,
@@ -31,6 +30,10 @@ h3 {
   font-weight: 700;
 }
 /*CSS Fernando */
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
 .header {
   background: url(/assets/img/carousel1.jpg) no-repeat center;
   background-size: cover;
@@ -39,24 +42,27 @@ h3 {
 .header .navbar {
   background-color: transparent !important;
 }
+.logo {
+  width: 35px;
+  height: 35px;
+}
 /*CSS Fernando---------- cierra */
 
-
 /* sección cartas con íconos */
-#descripcion{
+#descripcion {
   background-color: black;
-  color: #ffffff;  
+  color: #ffffff;
   font-weight: 300px;
   font-size: 16px;
 }
 
-#descripcion h2{
+#descripcion h2 {
   font-size: 25.912px;
   font-weight: 700px;
 }
-.fila{
+.fila {
   font-size: 16px;
 }
-.bajoiconos{
+.bajoiconos {
   background-color: #499ca0;
 }
