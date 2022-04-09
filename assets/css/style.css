@@ -18,6 +18,10 @@ h3 {
   font-weight: 700;
 }
 
+.section-title {
+  text-transform: uppercase;
+}
+
 .bg-black {
   background-color: black;
 }
@@ -53,7 +57,7 @@ h3 {
   background-color: black;
   color: #ffffff;
   font-weight: 300px;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 #descripcion h2 {
@@ -66,25 +70,25 @@ h3 {
 .bajoiconos {
   background-color: #499ca0;
 }
-.letra-contacto{
+.letra-contacto {
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
-.letra{
+.letra {
   color: white;
   font-family: "Lato", sans-serif;
 }
-.titulo-centrado{
+.titulo-centrado {
   text-align: center;
 }
-.btn-celeste{
+.btn-celeste {
   background-color: #499ca0;
 }
-.bg-footer{
+.bg-footer {
   background-color: #499ca0;
 }
-.icono{
+.icono {
   color: white;
   width: 20px;
   height: 20px;
