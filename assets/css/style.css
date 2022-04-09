@@ -66,3 +66,26 @@ h3 {
 .bajoiconos {
   background-color: #499ca0;
 }
+.letra-contacto{
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.letra{
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.titulo-centrado{
+  text-align: center;
+}
+.btn-celeste{
+  background-color: #499ca0;
+}
+.bg-footer{
+  background-color: #499ca0;
+}
+.icono{
+  color: white;
+  width: 20px;
+  height: 20px;
+}
